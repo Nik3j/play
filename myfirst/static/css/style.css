@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*{
+	margin: 0;
+	padding: 0;
+    font-family:open sans;
+    letter-spacing: 0.6px;   
+}
+center{
+	background-image: url(img/bacg.jpg);
+ 	background-size: cover;
+}
+
+.border {
+	vertical-align:middle;
+	display: inline-block;
+	width: 500px;
+	/*padding: 10px;*/
+	height: 400px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+ 	background-color:#9fdafee6;
+    font-family: cursive;
+    border-radius:35px;
+}
+.content{
+	display: inline-block;
+	height: 200px;
+	padding-top: 50px;
+}
+
+
+form{
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+
+}
+
+.button {
+	float: left;
+	align-self: center;
+	background-color: #2fceeb; 
+	border: 1px solid #3dadda;
+	color: white;
+	width: 100px;
+	height: 40px;
+	margin: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #2fceeb; 
+  color: white;
+}

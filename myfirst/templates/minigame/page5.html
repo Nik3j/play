@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h2>You choosed:</h2>
+	{% if PageList %}
+		<p>{{ position}}</p>
+	{% else %}
+		Eror!
+	{% endif %}
+	<form action="{% url 'index' %}">
+    	<input class="button" type="submit" value="again!" />
+	</form>
+
+{% endblock %}

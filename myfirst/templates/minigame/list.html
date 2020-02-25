@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	{% if PageList %}
+		<h2>Choose one please:</h2>
+		{% for i in PageList %}
+			<p>{{i}}</p>
+		{% endfor %}
+
+	{% else %}
+		Eror!
+	{% endif %}
+	<form action="{% url 'page1' %}">
+    	<input class="button" type="submit" value="choosed!" />
+	</form>
+{% endblock %}
